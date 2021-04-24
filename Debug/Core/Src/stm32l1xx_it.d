@@ -1,5 +1,12 @@
-Core/Src/stm32l1xx_it.o: ../Core/Src/stm32l1xx_it.c ../Core/Inc/main.h \
- ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h \
+Core/Src/stm32l1xx_it.o: ../Core/Src/stm32l1xx_it.c \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/Global.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/SEGGER_RTT_Conf.h \
+ ../Core/Inc/main.h ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h \
  ../Core/Inc/stm32l1xx_hal_conf.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h \
@@ -22,8 +29,27 @@ Core/Src/stm32l1xx_it.o: ../Core/Src/stm32l1xx_it.c ../Core/Inc/main.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash_ramfunc.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr_ex.h \
+ ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc.h \
+ ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc_ex.h \
+ ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim.h \
+ ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim_ex.h \
+ ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_usart.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_exti.h \
  ../Core/Inc/stm32l1xx_it.h
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/Global.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+
+C:/Users/User/STM32CubeIDE/workspace_1.5.0/RTOS_BASED_ATM/Middlewares/Third_Party/SEGGER/Config/SEGGER_RTT_Conf.h:
 
 ../Core/Inc/main.h:
 
@@ -72,6 +98,16 @@ Core/Src/stm32l1xx_it.o: ../Core/Src/stm32l1xx_it.c ../Core/Inc/main.h \
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr_ex.h:
+
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc.h:
+
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc_ex.h:
+
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim.h:
+
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim_ex.h:
+
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_usart.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_exti.h:
 

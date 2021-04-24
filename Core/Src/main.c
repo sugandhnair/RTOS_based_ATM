@@ -33,6 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define DWT_CTRL		(*(volatile uint32_t*)0xE0001000)
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -115,6 +116,7 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -129,6 +131,10 @@ int main(void)
   MX_RTC_Init();
   MX_USART2_Init();
   /* USER CODE BEGIN 2 */
+  DWT_CTRL |= (1 << 0);
+
+  SEGGER_SYSVIEW_Conf();
+  SEGGER_SYSVIEW_Start();
 
   /* USER CODE END 2 */
 
